@@ -1,0 +1,84 @@
+
+        ============================================================
+        DENGUE TRIAGE SYSTEM: RULE-BASED vs MACHINE LEARNING
+        ============================================================
+        
+        1. DATASET OVERVIEW
+        ----------------------------------------
+        Total Patients: 2000
+        Time Period: 2025-12-02 to 2026-01-01
+        
+        Severity Distribution:
+        Severe           932
+Moderate         800
+OtherSymptoms    178
+Mild              89
+NoSymptoms         1
+        
+        Demographics:
+        Average Age: 33.0 years
+        Gender: {1: 1019, 0: 981}
+        
+        2. SYMPTOM PREVALENCE
+        ----------------------------------------
+        Most Common Symptoms:
+        fever         91.05
+fatigue       80.15
+headache      74.15
+joint_pain    57.80
+eye_pain      52.30
+        
+        Average symptoms per patient: 4.6
+        
+        3. RULE-BASED CHATBOT PERFORMANCE
+        ----------------------------------------
+        Overall Accuracy: 0.915 (91.5%)
+        Misclassification Rate: 0.085
+        
+        4. MACHINE LEARNING MODEL
+        ----------------------------------------
+        Model Type: Random Forest Classifier
+        Training Accuracy: 0.935 (93.5%)
+        
+        Top Predictive Features:
+                            feature  importance
+                      fever    0.377339
+                    fatigue    0.220709
+                   bleeding    0.113416
+persistent_vomiting_encoded    0.098718
+         fluid_accumulation    0.087623
+             abdominal_pain    0.064101
+                   vomiting    0.022427
+                   eye_pain    0.007903
+                   headache    0.007764
+        
+        5. PERFORMANCE COMPARISON
+        ----------------------------------------
+        Rule-Based Chatbot: 0.915
+        ML Model: 0.935
+        Improvement: 0.020 (2.0%)
+        
+        6. KEY FINDINGS
+        ----------------------------------------
+        • The rule-based chatbot achieves 91.5% accuracy
+        • Machine learning shows potential improvement of 2.0%
+        • Most common symptom: Fever (91.0%)
+        • Critical indicators for severe dengue: Fluid accumulation and bleeding
+        • ML models can learn complex patterns beyond rule-based logic
+        
+        7. RECOMMENDATIONS
+        ----------------------------------------
+        • Implement hybrid approach: ML predictions with rule-based fallback
+        • Use ML confidence thresholds for decision making
+        • Regularly retrain models with new user data
+        • Consider ensemble methods for improved accuracy
+        • Clinical validation with real patient outcomes
+        
+        8. VISUALIZATIONS GENERATED
+        ----------------------------------------
+        • confusion_matrix_chatbot.png - Chatbot performance
+        • confusion_matrix_ml.png - ML model performance
+        • feature_importance_ml.png - ML feature importance
+        • performance_comparison.png - Chatbot vs ML comparison
+        ============================================================
+        

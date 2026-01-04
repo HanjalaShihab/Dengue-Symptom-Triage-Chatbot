@@ -1,0 +1,6 @@
+dataset_id,user_hash,user_name,timestamp,language,fever,headache,eye_pain,vomiting,persistent_vomiting,abdominal_pain,bleeding,fatigue,fluid_accumulation,predicted_severity,ml_severity,ml_confidence,conversation_duration_seconds,prediction_method,telegram_username,first_name,last_name,dataset_filename
+1,11cdfe15c8,Hanjala Shihab,2026-01-01T16:50:19.129031,en,0,1,0,0,,0,0,0,0,OtherSymptoms,OtherSymptoms,0.92,35.33,ml,Hanjala_Shihab,Hanjala,,Hanjala_Shihab_20260101_165019.csv
+2,11cdfe15c8,Hanjala Shihab,2026-01-01T17:09:32.677733,en,1,0,0,0,,0,0,0,0,FeverOnly,Mild,1.0,41.27,ml,Hanjala_Shihab,Hanjala,,Hanjala_Shihab_20260101_170932.csv
+3,11cdfe15c8,Hanjala Shihab,2026-01-01T17:28:07.794261,en,1,0,0,0,,0,0,0,0,Mild,Mild,1.0,40.66,ml,Hanjala_Shihab,Hanjala,,Hanjala_Shihab_20260101_172807.csv
+4,11cdfe15c8,Muhammad Shihab,2026-01-01T17:30:57.469556,en,0,1,0,0,,0,0,0,0,OtherSymptoms,OtherSymptoms,0.92,38.61,ml,Hanjala_Shihab,Hanjala,,Muhammad_Shihab_20260101_173057.csv
+5,11cdfe15c8,Muhammad Hanjala,2026-01-01T17:56:44.227371,en,1,0,0,0,,0,0,0,0,Mild,Mild,1.0,39.22,ml,Hanjala_Shihab,Hanjala,,Muhammad_Hanjala_20260101_175644.csv

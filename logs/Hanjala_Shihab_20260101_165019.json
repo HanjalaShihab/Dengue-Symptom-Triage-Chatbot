@@ -1,0 +1,21 @@
+{
+  "dataset_id": 1,
+  "user_name": "Hanjala Shihab",
+  "timestamp": "2026-01-01T16:50:19.129031",
+  "rule_severity": "OtherSymptoms",
+  "ml_severity": "OtherSymptoms",
+  "ml_confidence": 0.92,
+  "prediction_method": "ml",
+  "answers": {
+    "Fever": 0,
+    "Headache": 1,
+    "EyePain": 0,
+    "Vomiting": 0,
+    "PersistentVomiting": null,
+    "AbdominalPain": 0,
+    "Bleeding": 0,
+    "Fatigue": 0,
+    "FluidAccumulation": 0
+  },
+  "bot_version": "2.0"
+}
