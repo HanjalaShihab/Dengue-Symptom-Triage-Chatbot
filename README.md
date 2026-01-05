@@ -1,4 +1,4 @@
-# 🤖 Dengue Triage Chatbot with Machine Learning
+# 🤖 Dengue Symptom Triage Chatbot with Machine Learning
 
 A bilingual (English/Bangla) Telegram chatbot for dengue symptom assessment using both rule-based logic and machine learning predictions.
 
