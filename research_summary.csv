@@ -1,0 +1,2 @@
+dataset_id,user_hash,user_name,timestamp,language,fever,headache,eye_pain,vomiting,persistent_vomiting,abdominal_pain,bleeding,fatigue,fluid_accumulation,predicted_severity,ml_severity,ml_confidence,conversation_duration_seconds,prediction_method,telegram_username,first_name,last_name,dataset_filename
+1,11cdfe15c8,Mr.Nobody,2026-01-05T13:32:59.408310,en,1,0,0,0,,0,0,0,0,Mild,Mild,1.0,42.93,ml,Hanjala_Shihab,Hanjala,,Mr.Nobody_20260105_133259.csv
