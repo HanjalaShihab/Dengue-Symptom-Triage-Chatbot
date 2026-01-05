@@ -29,7 +29,7 @@ A bilingual (English/Bangla) Telegram chatbot for dengue symptom assessment usin
 ```bash
 # Clone repository
 git clone https://github.com/HanjalaShihab/Dengue-Symptom-Triage-Chatbot.git
-cd Dengue-ML-Chatbot
+cd Dengue-Symptom-Triage-Chatbot
 
 # Create virtual environment
 python -m venv venv
