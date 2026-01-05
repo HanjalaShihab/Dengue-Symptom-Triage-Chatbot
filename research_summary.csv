@@ -1,0 +1,1 @@
+dataset_id,user_hash,user_name,timestamp,language,fever,headache,eye_pain,vomiting,persistent_vomiting,abdominal_pain,bleeding,fatigue,fluid_accumulation,predicted_severity,ml_severity,ml_confidence,conversation_duration_seconds,prediction_method,telegram_username,first_name,last_name,dataset_filename
