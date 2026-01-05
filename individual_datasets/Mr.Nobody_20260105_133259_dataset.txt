@@ -1,0 +1,32 @@
+============================================================
+INDIVIDUAL PATIENT DATASET
+============================================================
+
+PATIENT INFORMATION
+----------------------------------------
+Name: Mr.Nobody
+Date: 2026-01-05 13:32:59
+Language: EN
+
+SYMPTOM RESPONSES
+----------------------------------------
+Fever               : Yes
+Headache            : No
+Eyepain             : No
+Vomiting            : No
+Persistentvomiting  : Not applicable
+Abdominalpain       : No
+Bleeding            : No
+Fatigue             : No
+Fluidaccumulation   : No
+
+PREDICTION RESULTS
+----------------------------------------
+Rule-Based Prediction: Mild
+ML Prediction: Mild (Confidence: 100.0%)
+Final Prediction: Mild
+Prediction Method: ML
+
+============================================================
+END OF DATASET
+============================================================
