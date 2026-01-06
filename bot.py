@@ -10,8 +10,11 @@ import hashlib
 import json
 import os
 import re
+from dotenv import load_dotenv
 
-BOT_TOKEN = "8471425044:AAFvjoSYce8tZRjnt8sC76EA6uX36rlgPdk"
+load_dotenv()
+
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # Initialize ML predictor
 ml_predictor = DengueMLPredictor()
